@@ -1,0 +1,33 @@
+header nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style-type: none;
+  padding: 0px;
+  overflow-x: auto;
+  margin: 2px;
+  place-content: center;
+  flex-flow: wrap;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: rgb(232, 157, 255);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+#first_section img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 6rem;
+}
+#first_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
