@@ -16,7 +16,7 @@ img {
   max-width: 100%;
 }
 a {
-  color: rgb(232, 157, 255);
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
   text-decoration: none;
 }
@@ -30,4 +30,17 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
+}
+
+#section_first {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding-top: 5%;
+}
+
+#section_first img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
