@@ -1,8 +1,5 @@
-@media (min-width: 600px) {
-}
 header nav ul {
   display: flex;
-  /* position: absolute; */
   gap: 1.25rem;
   list-style-type: none;
   padding: 0px;
@@ -17,20 +14,26 @@ main {
 }
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 a {
   color: rgb(0, 0, 0);
   font-size: 1.2rem;
   text-decoration: none;
 }
-#first_section img {
-  height: auto;
-  width: 100%;
-  object-fit: cover;
-  margin-top: 6rem;
-}
 #first_section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  gap: 15px;
+  padding-top: 5%;
 }
+.section_wrapper {
+  color: black;
+  background-color: #aca294;
+  padding: 5%;
+}
+/* #first_section p {
+  color: black;
+  background-color: rgb(252, 229, 200);
+} */
