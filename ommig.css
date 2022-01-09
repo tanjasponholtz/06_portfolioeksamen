@@ -23,10 +23,11 @@ a {
 }
 #first_section {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   gap: 15px;
   padding-top: 5%;
+  margin-bottom: 10%;
 }
 .section_wrapper {
   color: black;
@@ -34,13 +35,30 @@ a {
   padding: 5%;
 }
 a {
-  font-family: cheap-pine, sans-serif;
-
-  font-weight: 400;
-
-  font-style: normal;
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
 }
-/* #first_section p {
-  color: black;
-  background-color: rgb(252, 229, 200);
-} */
+h1 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+  font-weight: bolder;
+}
+p {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+h3 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+footer {
+  font-family: "Overpass Mono", monospace;
+}
+footer {
+  /* margin-top: 100px; */
+  margin-left: 20px;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}

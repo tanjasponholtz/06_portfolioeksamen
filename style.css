@@ -42,3 +42,31 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
+a {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+  font-weight: bolder;
+}
+p {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+h3 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+footer {
+  font-family: "Overpass Mono", monospace;
+}
+footer {
+  /* margin-top: 100px; */
+  margin-left: 20px;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}

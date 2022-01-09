@@ -13,14 +13,26 @@ header nav ul {
   place-content: center;
   flex-flow: wrap;
 }
+#section_second img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#section_second {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2%;
+  margin-top: 3%;
+}
 main {
   max-width: 1000px;
   margin: 0 auto;
 }
 #section_first {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 2fr 2fr; */
   gap: 15px;
   padding-top: 5%;
 }
@@ -40,4 +52,41 @@ a {
   font-weight: 400;
 
   font-style: normal;
+}
+a {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+  /* font-weight: bolder; */
+}
+p {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+h3 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+footer {
+  font-family: "Overpass Mono", monospace;
+}
+footer {
+  /* margin-top: 100px; */
+  margin-left: 20px;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+h2 {
+  font-family: "Anton", sans-serif;
+  font-family: "Overpass Mono", monospace;
+}
+button {
+  margin-left: 44.5%;
+  margin-top: 7%;
+  margin-bottom: 2%;
 }
