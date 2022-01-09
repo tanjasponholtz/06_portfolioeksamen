@@ -11,6 +11,12 @@ header nav ul {
   place-content: center;
   flex-flow: wrap;
 }
+#section_first h1 {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 3;
+  /* justify-content: end; */
+}
 a {
   font-family: cheap-pine, sans-serif;
 
