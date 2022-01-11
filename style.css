@@ -1,3 +1,6 @@
+html {
+  background-color: #aca294;
+}
 .container {
   display: inline-block;
   cursor: pointer;
@@ -133,6 +136,12 @@ a {
 
   font-style: normal;
 }
+#section_first img {
+  height: 30%;
+  width: 30%;
+  padding-top: 5%;
+  margin-left: 7%;
+}
 
 main {
   max-width: 1000px;
@@ -140,18 +149,19 @@ main {
 }
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 a {
   color: rgb(0, 0, 0);
   font-size: 1.2rem;
   text-decoration: none;
 }
-#first_section img {
+/* #first_section img {
   height: auto;
   width: 100%;
   object-fit: cover;
   margin-top: 6rem;
-}
+} */
 #first_section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
